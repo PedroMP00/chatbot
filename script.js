@@ -27,10 +27,10 @@ function chatbotResponse() {
     botMessage = 'Mi nombre es ' + botName;
   }
   if (lastUserMessage === 'Quien eres') {
-    botMessage = 'Simplemente soy un Chatbot programado por <a href="http://pedrompdev.ml target="_blank">PedroMP</a>';
+    botMessage = 'Simplemente soy un Chatbot programado por <a href="http://pedrompdev.ml" target="_blank">PedroMP</a>';
   }
   if (lastUserMessage === 'quien eres') {
-    botMessage = 'Simplemente soy un Chatbot programado por <a href="http://pedrompdev.ml target="_blank">PedroMP</a>';
+    botMessage = 'Simplemente soy un Chatbot programado por <a href="http://pedrompdev.ml" target="_blank">PedroMP</a>';
   }
 }
 
